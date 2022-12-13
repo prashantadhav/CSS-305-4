@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    /* border: 2px solid red; */
+    height: 40vh;
+}
+.top{
+    /* border: 2px solid yellow; */
+    max-height: 45%;
+    background-color: #2874f0;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.top .logo{
+    /* border: 2px solid black; */
+    margin-left: 120px;
+    padding: 0.2rem 0.5rem;
+}
+.top .logo img{
+    height: 60px;
+    
+}
+.top .inp{
+    /* border: 2px solid black; */
+    padding: 0.4rem 0.9rem;
+}
+.top .inp input{
+  height: 40px;
+  width: 500px;
+}
+
+.top .login button{
+    height: 35px;
+    width: 110px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 2px;
+    border: none;
+    color: #2874f0;
+}
+.top .login button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.top .seller{
+    /* border: 2px solid black; */
+    padding: 0.3rem 0.9rem;
+}
+.top .seller button{
+    height: 30px; 
+    border: none;
+    background-color: transparent; 
+    color: white;
+}
+
+.top .more select{
+    height: 40px; 
+    border: none;
+    background-color: transparent; 
+    color: white;
+    
+}
+
+.top .cart button{
+    height: 40px; 
+    width: 100px;
+    background-color: transparent;
+    border: none;
+    color: white; 
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    margin-top: 10px;
+    /* border: 2px solid black; */
+}
+.bottom bottom1 img{
+    height: 100px;
+  
+    
+}
+.names{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0.2rem 0.1rem;
+}
+.names button{
+    height: 25px;
+    border: none;
+    background-color: transparent;
+}
+.names button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    color: #2874f0;
+}
